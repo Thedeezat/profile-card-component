@@ -94,14 +94,14 @@ body {
           transform: translateY(-50%);
 }
 
-.content h1 {
+.content h2 {
   font-size: 1.8rem;
   padding-bottom: 1rem;
   color: #2d3248;
   font-weight: 700;
 }
 
-.content h1 span {
+.content h2 span {
   color: #969696;
   font-weight: 400;
   position: relative;
