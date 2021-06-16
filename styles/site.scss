@@ -37,28 +37,15 @@ body{
   min-height: 100vh;
   overflow: hidden;
   @include flex;
-
+  background-image: 
+    url('../images/bg-pattern-top.svg'),
+    url('../images/bg-pattern-bottom.svg');
+    background-position: top -42rem left -15rem, bottom -45rem right -20rem;
+    background-repeat: no-repeat;
+    background-size: 63%;
+    
   @include phone{
     min-width: 375px;
-  }
-  
-  aside {
-    position: relative;
-    img{
-      position: absolute;
-    }
-  }
-  .aside__img_1{
-    img{
-      top: 3rem;
-      left: 20rem;
-    }
-  }
-  .aside__img_2{
-    img{
-      bottom: -10rem;
-      right: -23rem;
-    }
   }
 }
 .content{

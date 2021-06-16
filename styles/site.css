@@ -29,30 +29,16 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-position: top -42rem left -15rem, bottom -45rem right -20rem;
+  background-repeat: no-repeat;
+  background-size: 63%;
 }
 
 @media screen and (max-width: 375px) {
   .container {
     min-width: 375px;
   }
-}
-
-.container aside {
-  position: relative;
-}
-
-.container aside img {
-  position: absolute;
-}
-
-.container .aside__img_1 img {
-  top: 3rem;
-  left: 20rem;
-}
-
-.container .aside__img_2 img {
-  bottom: -10rem;
-  right: -23rem;
 }
 
 .content {
