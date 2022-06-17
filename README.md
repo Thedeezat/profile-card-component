@@ -17,7 +17,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Build out the project to the designs provided
 
 ### Links
-- Live Site URL: [live site URL ](https://thedeezat.github.io/profile-card-component/)
+- Live Site URL: [https://thedeezat.github.io/profile-card-component/](https://thedeezat.github.io/profile-card-component/)
 
 ## My process
 
